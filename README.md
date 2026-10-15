@@ -116,6 +116,7 @@ Arduino enthusiast | Electronics & Embedded Systems Developer
 GitHub: [@TanvirCodeStorm](https://github.com/TanvirCodeStorm)
 
 This project is created for learning, experimentation, and demonstrating basic Arduino I²C communication.
+[Diagram made using Tinkercad](https://tinkercad.com)
 
 ---
 
