@@ -57,7 +57,7 @@ Connect the I²C module to the Arduino as follows:
 5. Select the correct board and COM port.
 6. Upload the code and see the magic.
 
-The scanner will display the hexadecimal addresses of any detected I²C devices.
+The LCD will display the contents as mentioned in the code.
 
 ---
 
