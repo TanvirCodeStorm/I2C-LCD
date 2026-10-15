@@ -3,6 +3,10 @@
 //https://github.com/TanvirCodeStorm
 //Please visit our website https://hydrogengo.github.io
 
+//Note: -The libraries must be installed     //
+//      -Making any changes in the entries may require to make a relative change in the lcd.setCursor();   //
+
+
 //==========================================//
 
 //Including Libraries
@@ -59,19 +63,19 @@ void loop() {
   lcd.setCursor(4, 0);
   lcd.print("Welcome!");
   lcd.setCursor(5, 1);
-  lcd.print("Tanvir");
+  lcd.print("Tanvir"); //Replace with your name
   delay(5000);
   lcd.clear();
   //Displaying Your Social Profile (For example, GitHub)
   lcd.setCursor(4, 0);
-  lcd.print("GitHub");
+  lcd.print("GitHub"); //Replace with your desired platform 
   lcd.setCursor(2, 1);
-  lcd.print("TanvirCodex");
+  lcd.print("TanvirCodex"); //Replace with your social profile
   delay(3000);
   lcd.clear();
   //Displaying Your Website (For example, HydrogenGo)
   lcd.setCursor(3, 0);
-  lcd.print("HydrogenGo");
+  lcd.print("HydrogenGo"); //Replace with your website
   delay(20000);
 
 }
